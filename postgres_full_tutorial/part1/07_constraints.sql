@@ -10,7 +10,13 @@ CREATE TABLE basics.accounts(
     created_at TIMESTAMP DEFAULT NOW()
 );
 
-INSERT INTO basics.accounts (full_name,email, age)
-VALUES ('Ankita Arya','ankita@gmail.com',19);
+-- INSERT INTO basics.accounts (full_name,email, age)
+-- VALUES ('Ankita Arya','ankita@gmail.com',19);
 
-SELECT * FROM basics.accounts;
+-- SELECT * FROM basics.accounts;
+
+-- INSERT INTO basics.accounts (email, age)
+-- VALUES ('missing@gmail.com',20);
+
+INSERT INTO basics.accounts (full_name, email, age)
+VALUES ('duplicate email user','ankita@gmail.com',23);
