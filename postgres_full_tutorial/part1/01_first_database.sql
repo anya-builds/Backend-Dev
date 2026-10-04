@@ -1,0 +1,6 @@
+-- we should never do it in production app
+-- this is only for learning
+DROP DATABASE IF EXISTS postgresql_part1;
+
+-- create new db inside postgres server
+CREATE DATABASE postgresql_part1;
